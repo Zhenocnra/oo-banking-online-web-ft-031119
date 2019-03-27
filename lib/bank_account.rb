@@ -17,7 +17,7 @@ class BankAccount
   def valid
   end
   
-  def close_account
+  def self.close_account
   end
   
 end
