@@ -8,7 +8,7 @@ class BankAccount
     @status = "open"
   end
   
-  def self.deposit(amt)
+  def deposit(amt)
     self.balance += amt
   end
   
