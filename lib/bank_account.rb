@@ -9,7 +9,7 @@ class BankAccount
   end
   
   def self.deposit(amt)
-    self.balance  amt
+    self.balance += amt
   end
   
   def display_balance
